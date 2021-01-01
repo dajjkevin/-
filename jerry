@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2021-01-01T13:31:27.515Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.6" etag="35oaAPTwMnzH1zjThY3t" type="github"><diagram id="QMmceoDaxwqdEZfL3pe6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-01T13:37:04.426Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="AuDF5LDc7NgFw57TMjPY" version="14.1.6" type="github">
+  <diagram id="QMmceoDaxwqdEZfL3pe6" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ntH84Vmox7w0M8ysne7C-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ntH84Vmox7w0M8ysne7C-1" target="ntH84Vmox7w0M8ysne7C-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ntH84Vmox7w0M8ysne7C-9" value="传输一个套接字带端口号，用于接收信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ntH84Vmox7w0M8ysne7C-6">
+          <mxGeometry x="0.2514" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ntH84Vmox7w0M8ysne7C-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ntH84Vmox7w0M8ysne7C-1" target="ntH84Vmox7w0M8ysne7C-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ntH84Vmox7w0M8ysne7C-8" value="传输一个套接字给服务端进行发送信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ntH84Vmox7w0M8ysne7C-7">
+          <mxGeometry x="-0.1829" y="2" relative="1" as="geometry">
+            <mxPoint x="44" y="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ntH84Vmox7w0M8ysne7C-1" value="主线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ntH84Vmox7w0M8ysne7C-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ntH84Vmox7w0M8ysne7C-2" target="ntH84Vmox7w0M8ysne7C-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ntH84Vmox7w0M8ysne7C-2" value="client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ntH84Vmox7w0M8ysne7C-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ntH84Vmox7w0M8ysne7C-4" target="ntH84Vmox7w0M8ysne7C-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ntH84Vmox7w0M8ysne7C-4" value="server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ntH84Vmox7w0M8ysne7C-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ntH84Vmox7w0M8ysne7C-10" target="ntH84Vmox7w0M8ysne7C-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ntH84Vmox7w0M8ysne7C-10" value="接收到信息，并且输出" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ntH84Vmox7w0M8ysne7C-13" value="用刚才的套接字一直打开接收信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ntH84Vmox7w0M8ysne7C-14" value="传输数据成功" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ntH84Vmox7w0M8ysne7C-17" value="建立一个数据包用来存入输入进的数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="310" width="220" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

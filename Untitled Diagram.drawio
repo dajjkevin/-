@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2021-01-05T12:46:14.610Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.7" etag="jWyrgXGeNbwcis-lakes" type="github"><diagram id="xR-3kaabbKO_jpf6eTyw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-05T13:15:11.496Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dI11Ayggph_Gq2CQgYsn" version="14.1.7" type="github">
+  <diagram id="xR-3kaabbKO_jpf6eTyw" name="Page-1">
+    <mxGraphModel dx="1865" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o9vOTxfmPRzKf26ESD53-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o9vOTxfmPRzKf26ESD53-1" target="o9vOTxfmPRzKf26ESD53-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-1" value="程序输入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o9vOTxfmPRzKf26ESD53-2" target="o9vOTxfmPRzKf26ESD53-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-2" value="词法分析器分析词" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o9vOTxfmPRzKf26ESD53-4" target="o9vOTxfmPRzKf26ESD53-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o9vOTxfmPRzKf26ESD53-4" target="o9vOTxfmPRzKf26ESD53-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-4" value="分析语义开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o9vOTxfmPRzKf26ESD53-6" target="o9vOTxfmPRzKf26ESD53-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-6" value="词义匹配" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-8" value="没遇到NONTOKEN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="260" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o9vOTxfmPRzKf26ESD53-9" target="o9vOTxfmPRzKf26ESD53-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-135" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-135" y="410" />
+              <mxPoint x="-135" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-9" value="执行对应操作" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-12" value="该句执行结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="320" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-13" value="程序结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-15" value="遇到NONTOKEN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o9vOTxfmPRzKf26ESD53-26" target="o9vOTxfmPRzKf26ESD53-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o9vOTxfmPRzKf26ESD53-26" target="o9vOTxfmPRzKf26ESD53-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-26" value="程序模块图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-27" value="词法分析模块" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o9vOTxfmPRzKf26ESD53-29" target="o9vOTxfmPRzKf26ESD53-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o9vOTxfmPRzKf26ESD53-29" target="o9vOTxfmPRzKf26ESD53-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-29" value="语义分析模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-31" value="语法分解模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o9vOTxfmPRzKf26ESD53-33" value="变量分析模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
